@@ -15,6 +15,8 @@
     
 <header>
 
+  <a href="" title=""><img class="logo"/></a>
+
   <nav role="navigation"> 
           <span class="nav-btn"></span> 
       <ul class="nav">

@@ -10,11 +10,20 @@ header {
 	z-index: 100;
 	}	
 
+
+.logo {
+	display: block;
+	margin: 15px auto 0;
+	background-color: #515151;
+	width: 150px;
+	height: 40px;
+	}
+
 	
 .nav { 
 	background-color: #2e2634;
 	color: #fff; 
-	margin: 34px 0 0 0;
+	margin: 8px 0 0 0;
 	text-align: center;
 	float: none;
 
@@ -33,7 +42,7 @@ header {
 		font-size: 1.6rem;
 		font-weight: 200;
 		color: #fff;
-		padding: 6px;
+		padding: 10px;
 		}
 
 	li a:hover {
@@ -48,14 +57,20 @@ header {
 ----*/
 	
 @media screen and (max-width: 859px) {
+
+.logo {
+	position: absolute;
+	left: 8px;
+	top: 25px;
+	}
 	
 .nav {
 	text-align: left;
 	display: none;
 	margin: 0;
 	float: none;
-	margin: 30px 0 10px 0;
-
+	margin: 40px 0 10px 0;
+	
 	li {
 		display: block;
 		padding: 10px;
@@ -65,7 +80,7 @@ header {
 		}
 
 	}
-	
+
 .nav-btn {
 	width: 50px;
 	display: block; 
@@ -76,7 +91,8 @@ header {
 	font-weight: 200;
 	text-align:center;
 	cursor: pointer;
-	margin-top: 34px
+	margin-top: 30px;
+	padding-bottom: 20px;
 	}	
 	
 .nav-btn:before {
