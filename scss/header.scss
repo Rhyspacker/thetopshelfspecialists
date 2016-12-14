@@ -1,7 +1,7 @@
 
 header {
 	display: block;
-    background: #2e2634;
+    background: $mainBg;
 	width: 100%;
 	height: 100px;
 	position: fixed;
@@ -21,7 +21,7 @@ header {
 
 	
 .nav { 
-	background-color: #2e2634;
+	background-color: $mainBg;
 	color: #fff; 
 	margin: 8px 0 0 0;
 	text-align: center;
@@ -36,18 +36,21 @@ header {
 		display: inline; 
 		}
 
-	li a {
+	 a {
 		text-decoration: none; 
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.6rem;
 		font-weight: 200;
 		color: #fff;
 		padding: 10px;
-		}
 
-	li a:hover {
+		&:hover {
 		color: #144e9c;
 		}
+
+		}
+
+	
 
 	}
 	
@@ -61,7 +64,7 @@ header {
 .logo {
 	position: absolute;
 	left: 8px;
-	top: 25px;
+	top: 15px;
 	}
 	
 .nav {
@@ -75,7 +78,7 @@ header {
 		display: block;
 		padding: 10px;
 		margin-left: 10px;
-		background-color: #2e2634;
+		background-color: $mainBg;
 		width: 100%;
 		}
 
@@ -84,7 +87,7 @@ header {
 .nav-btn {
 	width: 50px;
 	display: block; 
-	background-color: #2e2634;
+	background-color: $mainBg;
 	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;

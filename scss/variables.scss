@@ -1,5 +1,17 @@
-// Variables
+/*----
+FONTS
+----*/
 
-$main: #000000;
-$second: #EEEEEE;
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Nunito');
+
+/*----
+VARIABLES
+----*/
+
+$mainBg: #000000;
+$secondBg: #ff2943;
+$hoverColour: #ff2943;
+
+$headerFont: 'Fjalla One', sans-serif;
+$pFont: 'Nunito', sans-serif;
 
