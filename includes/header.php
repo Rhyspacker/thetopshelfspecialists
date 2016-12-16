@@ -18,7 +18,17 @@
   <a href="" title=""><img class="logo"/></a>
 
   <nav role="navigation"> 
-          <span class="nav-btn"></span> 
+      <div class="nav-btn">
+
+        <div id="burger-container">
+          <div id="burger">
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+        </div>
+
+      </div>
+      
       <ul class="nav">
         <li><a href="projects.php" title="">ABOUT</a></li>
         <li><a href="blog.php" title="">SERVICES</a></li>
