@@ -11,16 +11,27 @@ $cssPath = 'css/styles.css';
 include('includes/header.php'); 
 
 ?>
+
+<div class="hero">
       
-<!-- particles.js container -->
   <div id="particles-js"></div>
-
-<!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
-  <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-  <script src="js/particles.js"></script>
    
+</div>
+
+<main>
 
 
+<a href="index.php">
+<svg class="icon">
+  <use xlink:href="img/social.svg#icon-facebook"></use>
+</svg>
+</a>
+
+<svg class="icon">
+  <use xlink:href="img/social.svg#icon-facebook2"></use>
+</svg>
+
+</main>
 
 <?php include('includes/footer.php'); ?>
 

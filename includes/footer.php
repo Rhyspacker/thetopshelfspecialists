@@ -26,7 +26,7 @@
 </footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="js/nav.js"></script>
+	<script src="js/main/main.min.js"></script>
 
 </body> 
 	
