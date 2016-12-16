@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
+var svgstore = require('gulp-svgstore');
 var uglify = require('gulp-uglify');
 
 
@@ -24,3 +25,12 @@ gulp.task('scripts', function(){
 gulp.task('default', function(){
   gulp.watch("js/*.js", ['scripts']);
 });
+
+gulp.task('svgstore', function() {
+	return gulp
+		.src('img/svg/*.svg')
+		.pipe(svgstore())
+		.pipe(rename({basename: 'sprite'}))
+		.pipe(gulp.dest('./img'));
+})
+
