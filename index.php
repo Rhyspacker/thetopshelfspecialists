@@ -3,9 +3,11 @@
 
 <?php
 // Define variables for SEO
-$pageTitle = 'Orange Widgets | The Best Orange Widgets';
-$pageDescription = 'Visit AwesomeOrangeWidgets.com to find the best orange widgets in all the lands (Oz included).';
-$pageKeywords = 'page, web, rhys';
+$pageTitle = 'Home | The Top Shelf Specialists';
+$pageDescription = 'We are an award winning bar consultancy agency based in Manchester...';
+$pageKeywords = 'Manchester, Bar, Bar consultancy, cocktails, top shelf, the top shelf specialists';
+$pageUrl = 'http://thetopshelfspecialists.co.uk';
+
 $cssPath = 'css/styles.css';
 
 include('includes/header.php'); 
@@ -34,7 +36,7 @@ include('includes/header.php');
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat.
 		</p>
-		
+
 	</div>
 
 	<div class="flex-item" >
