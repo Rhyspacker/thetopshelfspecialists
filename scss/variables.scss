@@ -4,14 +4,26 @@ FONTS
 
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Nunito');
 
-/*----
-VARIABLES
-----*/
+
+// Colours
 
 $mainBg: #000000;
 $secondBg: #ff2943;
 $hoverColour: #ff2943;
 
+
+// Breakpoints
+
+$tabletBreakpoint: 859px;
+$mobileBreakpoint: 500px;
+
+// Typography
+
 $headerFont: 'Fjalla One', sans-serif;
 $pFont: 'Nunito', sans-serif;
+
+
+// Other
+
+$footerHeader: #ffffff;
 

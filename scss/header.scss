@@ -3,20 +3,28 @@ header {
 	display: block;
     background: $mainBg;
 	width: 100%;
-	height: 100px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 100;
+	height: 120px;
+
+	z-index: 996;
+
+	@media screen and (max-width: $tabletBreakpoint) {
+		height: 100px;
+		}
 	}	
 
 
 .logo {
 	display: block;
-	margin: 15px auto 0;
-	background-color: #515151;
+	padding-top: 15px;
+	margin: 0 auto;
 	width: 150px;
 	height: 40px;
+
+	@media screen and (max-width: $tabletBreakpoint) {
+		position: absolute;
+		left: 8px;
+		top: 15px;
+		}
 	}
 
 	
@@ -34,9 +42,16 @@ header {
 
 	li {
 		display: inline; 
+
+		@media screen and (max-width: $tabletBreakpoint) {
+		display: block;
+		padding: 8px 0 8px 10px;
+		background-color: $mainBg;
+		width: 100%;
+			}
 		}
 
-	 a {
+	a {
 		text-decoration: none; 
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.6rem;
@@ -50,44 +65,28 @@ header {
 
 		}
 
-	
-
-	}
-	
-
-/*----
-@MEDIA REQUESTS FOR NAV
-----*/
-	
-@media screen and (max-width: 859px) {
-
-.logo {
-	position: absolute;
-	left: 8px;
-	top: 15px;
-	}
-	
-.nav {
-	width: 100%;
-	text-align: left;
-	display: none;
-	margin: 0;
-	float: none;
-	margin: 0;
-	padding-top: 23px;
-    position: fixed;
-    left: 0;
-
-	
-	li {
-		display: block;
-		padding: 8px;
-		margin-left: 10px;
-		background-color: $mainBg;
+	@media screen and (max-width: $tabletBreakpoint) {
 		width: 100%;
+		text-align: left;
+		display: none;
+		margin: 0;
+		float: none;
+		margin: 0;
+		padding-top: 23px;
+	    position: fixed;
+	    left: 0;
+	    z-index: 998;
 		}
 
 	}
+	
+
+
+// @MEDIA REQUESTS FOR NAV
+
+	
+@media screen and (max-width: $tabletBreakpoint) {
+
 
 .nav-btn {
 	position: absolute;
