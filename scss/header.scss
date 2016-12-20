@@ -53,14 +53,16 @@ header {
 
 	a {
 		text-decoration: none; 
-		font-family: 'Montserrat', sans-serif;
+		font-family: $headerFont;
 		font-size: 1.6rem;
 		font-weight: 200;
 		color: #fff;
 		padding: 10px;
 
+		transition: all ease-in-out .4s;
+		
 		&:hover {
-		color: #144e9c;
+		color: $hoverColour;
 		}
 
 		}
@@ -82,7 +84,7 @@ header {
 	
 
 
-// @MEDIA REQUESTS FOR NAV
+// @Media requests for nav-btn
 
 	
 @media screen and (max-width: $tabletBreakpoint) {

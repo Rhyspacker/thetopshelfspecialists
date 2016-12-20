@@ -1,32 +1,36 @@
 
-// VARIABLES
 
 @import "reset";
 @import "mixins";
-@import "font-awesome";
 @import "variables";
 @import "typography";
+@import "layout";
 @import "header";
 @import "hero";
-@import "layout";
 @import "footer";
-
 
 /*----
 SOCIAL ICONS
 ----*/
 
 .social {
-	display: block;
-    width: 270px;
-	text-align: left;
-	float: right;
 
-	img {
-		padding: 0;
+    a {	
+    	color: transparent;
+    	}
+
+    svg {
+    	width: 3em;
+		height: 3em;
+    	fill: #ffffff;
+    	transition: all ease-in-out .4s;
+    	}
+
+	svg:hover {
+		fill: $hoverColour;
 		}
 	}
-	
+
 
 .social-hero {
 	display: block;
@@ -34,15 +38,6 @@ SOCIAL ICONS
 	text-align: center;
 	}
 
-
-	
-body {
-	display: block !important;
-	margin:0px;
-	padding: 0;
-	font-family: 'helvetica neue', helvetica;
-    background:#efefef; 
-	}
 
 /*----
 PAGE HEADER 
