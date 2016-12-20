@@ -1,27 +1,46 @@
 
 
 
-<footer container="flex-container" role="contentinfo">
+<footer class="flex-container" role="contentinfo">
 
-	<div class="flex-item" >
+	<section class="flex-item">
+	<h2>Useful Links</h2>
+	</section>
 
-		<div class="social">
+	<section class="flex-item social">
 
-			<a href="https://github.com/Rhyspacker/rhyspacker.github.io" title="External link to Rhys's GitHub page"> 
-				<img src="icons/git.png" alt="">
+		<h2>Connect with us</h2>
+
+			<a href="#" title="">
+
+				<svg class="icon">
+	 				<use xlink:href="img/sprite.svg#facebook"></use>
+				</svg>
+			
 			</a>
 
-			<a href="https://twitter.com/Rhyspacker" title="External link to Rhys's Twitter profile"> 
-				<img src="icons/twitter.png" alt="">
+			<a href="#" title="">
+
+				<svg class="icon">
+				  	<use xlink:href="img/sprite.svg#twitter"></use>
+				</svg>
+
 			</a>
 
-			<a href="https://uk.linkedin.com/pub/rhys-packer/aa/b99/996" title="External link to Rhys's LinkedIn profilee"> 
-				<img src="icons/linkedin.png" alt="">
+			<a href="#" title="">
+
+				<svg class="icon">
+				  	<use xlink:href="img/sprite.svg#googleplus"></use>
+				</svg>
+
 			</a>
+		
 
-		</div>
+	</section>
 
-	</div>
+	<p id="copyright">
+		&copy; Rhys Packer 2016
+	</p>
 
 </footer>
 
