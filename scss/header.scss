@@ -22,7 +22,7 @@ header {
 
 	@media screen and (max-width: $tabletBreakpoint) {
 		position: absolute;
-		left: 8px;
+		right: 8px;
 		top: 15px;
 		}
 	}
@@ -33,7 +33,6 @@ header {
 	color: #fff; 
 	margin: 8px 0 0 0;
 	text-align: center;
-	float: none;
 
 	ul {
 		 margin: 0 auto;
@@ -47,7 +46,6 @@ header {
 		display: block;
 		padding: 8px 0 8px 10px;
 		background-color: $mainBg;
-		width: 100%;
 			}
 		}
 
@@ -68,14 +66,13 @@ header {
 		}
 
 	@media screen and (max-width: $tabletBreakpoint) {
-		width: 100%;
+		width: 240px;
 		text-align: left;
 		display: none;
 		margin: 0;
-		float: none;
-		margin: 0;
+		overflow: hidden;
 		padding-top: 23px;
-	    position: fixed;
+	    position: absolute;
 	    left: 0;
 	    z-index: 998;
 		}
@@ -92,7 +89,7 @@ header {
 
 .nav-btn {
 	position: absolute;
-	right: 15px;
+	left: 15px;
 	width: 50px;
 	display: block; 
 	background-color: $mainBg;
