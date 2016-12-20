@@ -15,21 +15,38 @@ include('includes/header.php');
 <div class="hero">
       
   <div id="particles-js"></div>
+
+  	<h1 class="typewrite" data-period="3000" data-type='[ "Award winning cocktails by design.", "Manchester based." ]'>
+	  
+	    <span class="wrap"></span>
+	
+	</h1>
    
 </div>
 
-<main>
+<main class="flex-container">
 
+	<div class="flex-item" >
+		<h1>Lorem ipsum dolor sit</h1>
 
-<a href="index.php">
-<svg class="icon">
-  <use xlink:href="img/social.svg#icon-facebook"></use>
-</svg>
-</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.
+		</p>
+		
+	</div>
 
-<svg class="icon">
-  <use xlink:href="img/social.svg#icon-facebook2"></use>
-</svg>
+	<div class="flex-item" >
+		<h1>Lorem ipsum dolor sit</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.
+		</p>
+		
+	</div>
 
 </main>
 
