@@ -1,0 +1,45 @@
+input, textarea{
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	background: #fafafa;
+	color: #636363;
+	width: 100%;
+	resize: none;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #757575;
+	transition: $defaultTransition;
+}
+
+
+input:focus, textarea:focus { 
+	outline: none; 
+	border-bottom: 2px solid $hoverColour;
+}
+
+
+/* Label */
+
+label {
+	color: #999; 
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: all 0.2s ease;
+}
+
+
+/* active */
+
+input:focus ~ label, input.used ~ label, textarea:focus ~ label, textarea.used ~ label{
+	top: -20px;
+    transform: scale(.75); left: -2px;
+	/* font-size: 14px; */
+	color: $hoverColour;
+}
+

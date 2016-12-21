@@ -3,10 +3,7 @@
 
 <?php
 // Define variables for SEO
-$pageTitle = 'Home | The Top Shelf Specialists';
-$pageDescription = 'We are an award winning bar consultancy agency based in Manchester...';
-$pageKeywords = 'Manchester, Bar, Bar consultancy, cocktails, top shelf, the top shelf specialists';
-$pageUrl = 'http://thetopshelfspecialists.co.uk';
+$pageTitle = 'Styleguide | The Top Shelf Specialists';
 
 $cssPath = 'css/styles.css';
 
@@ -126,6 +123,32 @@ include('includes/header.php');
 		<button class="calltoAction">
 			BUTTON
 		</button>
+
+		<br>
+
+		<h1 style="font-weight: bold; text-decoration: underline;">FORM</h1>
+
+		<form>
+
+			<div class="group">
+				<input type="text">
+				<label>Name</label>
+			</div>
+
+			<div class="group">
+				<input type="email">
+				<label>Email</label>
+			</div>
+
+			<div class="group">
+				<textarea rows="5" name="message" title="Enter your message here"></textarea>
+				<label>Message</label>
+			</div>
+
+  			<input type="submit" value="SUBMIT" title="submit your message" />
+
+		</form>
+
 
 </main>
 

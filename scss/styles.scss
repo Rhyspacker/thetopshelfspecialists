@@ -6,8 +6,10 @@
 @import "typography";
 @import "layout";
 @import "header";
-@import "ui/buttons";
 @import "hero";
+@import "form";
+@import "ui/buttons";
+@import "ui/input-boxes";
 @import "footer";
 
 // SOCIAL ICONS
@@ -92,7 +94,7 @@
 
 .colourBox {
 	display: block;
-	width: 100%;
+	width: 80%;
 	height: 80px;
 }
 
