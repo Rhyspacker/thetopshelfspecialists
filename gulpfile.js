@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var svgstore = require('gulp-svgstore');
-var uglify = require('gulp-uglify');
+var minify = require('gulp-minify');
 
 
 
@@ -18,7 +18,7 @@ gulp.task('scripts', function(){
     .pipe(concat('main.js'))
     .pipe(gulp.dest('js/main/'))
     .pipe(rename({suffix: '.min'}))
-    .pipe(uglify())
+    .pipe(minify())
     .pipe(gulp.dest('js/main/'))
 });
 
