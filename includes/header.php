@@ -39,8 +39,8 @@
       </div>
       
       <ul class="nav">
-        <li><a href="projects.php" title="">ABOUT</a></li>
-        <li><a href="blog.php" title="">SERVICES</a></li>
+        <li><a href="about.php" title="">ABOUT</a></li>
+        <li><a href="services.php" title="">SERVICES</a></li>
         <li><a href="contact.php" title="">CONTACT</a></li>
       </ul>
 
