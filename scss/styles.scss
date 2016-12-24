@@ -49,46 +49,34 @@
 	height: auto;
 	//background-image: url('../images/maze.png');
 	background-repeat: repeat;
-	margin-top: 40px; 
-	padding: 7px 40px 10px 20%;
-}
+	padding: 25px 0 10px 20%;
 
-.pageheader h1 {
+
+	h1 {
 	font-size: 2.0rem;
-}	
+	padding: 0;
 
-.pageheader p, .pageheader a {
-	padding-top: 5px;
-    font-size: 1.1rem;
-}	
-	
+		@media screen and (max-width: $mobileBreakpoint) {
+			font-size: 1.8rem;
+			}
+	}
 
-// @MEDIA REQUESTS FOR PAGE HEADER  
-	
+	p, a {
+	font-size: 1.1rem;	
+		@media screen and (max-width: $mobileBreakpoint) {
+			font-size: 0.9rem;
+		}
+	}
 
-@media screen and (max-width: 660px) {
-
-	.pageheader {
-		padding: 7px 40px 10px 10px;
-
-		h1 {
-			font-size: 1.6rem;
+	@media screen and (max-width: $tabletBreakpoint) {
+		padding: 25px 0 10px 40px;
 		}
 
-		p, a {
-			padding-top: 10px;
-			font-size: 0.9rem;
-		} 
-
-	}
-	
-
-	
-	.pageheader p, .pageheader a {
+	@media screen and (max-width: $mobileBreakpoint) {
+		padding: 25px 0 10px 30px;
+		}
+}
 		
-	}	
-
-}	
 
 // For Style Guide 
 
