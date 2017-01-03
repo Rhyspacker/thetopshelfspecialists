@@ -7,15 +7,15 @@ $pageUrl = 'http://thetopshelfspecialists.co.uk/services';
 
 $cssPath = 'css/styles.css';
 
-include('includes/header.php'); 
+include('includes/header.php');
 
 ?>
 
-<div class="pageheader" role="heading">
-		
+<div class="pageheader" id="services" role="heading">
+
 	<p><a href="index.php">HOME</a> / SERVICES</p>
 	<h1>SERVICES</h1>
-		
+
 </div>
 
 <main class="flex-container">
@@ -39,13 +39,11 @@ include('includes/header.php');
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat.
 		</p>
-		
-	</div>	
+
+	</div>
 
 </main>
 
 
 
 <?php include('includes/footer.php'); ?>
-
- 

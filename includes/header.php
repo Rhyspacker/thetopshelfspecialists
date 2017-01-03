@@ -2,8 +2,8 @@
 <html>
   <head>
     <title><?php echo $pageTitle; ?></title>
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="<?php echo $pageDescription; ?>">
     <meta name="keywords" content="<?php echo $pageKeywords; ?>">
     <meta name="author" content="The Top Shelf Specialists">
@@ -18,15 +18,15 @@
 
 
   </head>
-  
+
 
 <body>
-    
+
 <header>
 
-  <a href="" title=""><img class="logo"/></a>
+  <a href="" title=""><img class="logo" /></a>
 
-  <nav role="navigation"> 
+  <nav role="navigation">
       <div class="nav-btn">
 
         <div id="burger-container">
@@ -37,8 +37,9 @@
         </div>
 
       </div>
-      
+
       <ul class="nav">
+        <li><a href="index.php" title="">HOME</a></li>
         <li><a href="about.php" title="">ABOUT</a></li>
         <li><a href="services.php" title="">SERVICES</a></li>
         <li><a href="contact.php" title="">CONTACT</a></li>
