@@ -2,16 +2,20 @@
 .pageheader {
 	position: relative;
 	width: auto;
-	height: auto;
-	//background-image: url('../images/maze.png');
+	height: auto;;
 	background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-filter: sepia(2);
+  filter: sepia(2);
 	padding: 5px 0 25px 20%;
 
 
 	h1 {
 	font-size: 2.0rem;
 	padding: 0;
-  color: #ffffff;
+  color: #000;
+  text-shadow: $textShadow;
 		@media screen and (max-width: $mobileBreakpoint) {
 			font-size: 1.8rem;
 			}
@@ -19,8 +23,10 @@
 
 	p, a {
 	font-size: 1.1rem;
+  font-weight: bolder;
   margin: 15px 0;
-  color: #ffffff;
+  color: #000;
+  text-shadow: $textShadow;
 		@media screen and (max-width: $mobileBreakpoint) {
 			font-size: 0.9rem;
 		}
@@ -44,15 +50,12 @@
 
 #about {
   background-image: url('../img/about.jpg');
-  background-position: center center;
 }
 
 #services {
   background-image: url('../img/services.jpg');
-  background-position: center center;
 }
 
 #contact {
   background-image: url('../img/contact.jpg');
-  background-position: center center;
 }
