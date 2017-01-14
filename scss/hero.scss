@@ -10,8 +10,6 @@ canvas {
   z-index: 993;
   width: 100%;
   height: 450px;
-  -webkit-filter: sepia(2);
-  filter: sepia(2);
   }
 
 .typewrite {
@@ -31,7 +29,7 @@ canvas {
   }
 
 h1.typewrite {
-  text-shadow: $textShadow;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
   text-align: center;
   }
 

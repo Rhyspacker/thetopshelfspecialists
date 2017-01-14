@@ -58,7 +58,7 @@ include('includes/header.php');
 
 
 
-<div class="pageheader" id="contact" role="heading">
+<div class="pageheader" role="heading">
 
 	<p><a href="index.php">HOME</a> / CONTACT</p>
 	<h1>CONTACT</h1>

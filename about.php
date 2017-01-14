@@ -11,7 +11,7 @@ include('includes/header.php');
 
 ?>
 
-<div class="pageheader" id="about" role="heading">
+<div class="pageheader" role="heading">
 
 	<p><a href="index.php">HOME</a> / ABOUT</p>
 	<h1>ABOUT</h1>

@@ -2,7 +2,7 @@
 FONTS
 ----*/
 
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Arvo');
 
 
 // Colours
@@ -21,10 +21,10 @@ $mobileBreakpoint: 500px;
 
 // Typography
 
-$headerFont: 'Roboto Slab', serif;
+$headerFont: 'Arvo', sans-serif;
 $pFont: 'Nunito', sans-serif;
 
-$textShadow:  1px 1px 2px rgba(233, 233, 233, 1);
+$textShadow: 2px 2px 0 #ffd217, 5px 5px 0 #5ac7ff, 8px 8px 0 #ffd217, 10px 10px 0 #5ac7ff;
 
 
 // Other
