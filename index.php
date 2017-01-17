@@ -34,20 +34,21 @@ include('includes/header.php');
   <div class="partners-container" id="partners-container">
 
     <div class="flex-container">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
+      <img class="flex-item partner-item" src="img/partners/burleighs-gin.png" alt="">
+      <img class="flex-item partner-item" src="img/partners/jimbeam.png" alt="">
+      <img class="flex-item partner-item" src="img/partners/jameson.png" alt="">
     </div>
     <div class="flex-container">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
+      <img class="flex-item partner-item" src="img/partners/junkyard.png" alt="">
+      <img class="flex-item partner-item" src="img/partners/monkey-shoulder.png" alt="">
+      <img class="flex-item partner-item" src="img/partners/herbert-kilpin.png" alt="">
     </div>
     <div class="flex-container">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
-      <img class="flex-item" src="img/team-member.jpg" alt="">
+      <img class="flex-item partner-item" src="img/partners/reyka.png" alt="">
+      <img class="flex-item partner-item" src="img/partners/rub-smokehouse.png" alt="">
+      <img class="flex-item partner-item" src="img/partners/lacehouse.png" alt="">
     </div>
+
   </div>
 
   <button class="center" style="display: block;" id="partners-open" data-text-swap="Show Less">

@@ -1,0 +1,11 @@
+
+// Home
+
+.partner-item {
+	opacity: 0.5;
+	transition: $defaultTransition;
+
+	&:hover {
+		opacity: 1;
+		}
+	}
