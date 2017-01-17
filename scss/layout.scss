@@ -44,6 +44,9 @@ body {
 	-ms-flex: 1 1 100px;
 	flex: 1 1 100px;
 	padding: 15px;
+	@media screen and (max-width: $mobileBreakpoint) {
+		padding: 0;
+		}
 	}
 
 .flex-item-2 {
@@ -76,7 +79,7 @@ main {
 		}
 
 	@media screen and (max-width: $mobileBreakpoint) {
-		padding: 10px 10px;
+		padding: 10px 20px;
 		}
 	}
 
@@ -119,6 +122,19 @@ figcaption {
     display: none !important;
     transition: $defaultTransition;
 	}
+
+// Home
+
+.partners-container {
+	overflow: hidden;
+	max-height: 250px;
+  transition: max-height 1s ease-in-out;
+}
+
+.open {
+	height: auto;
+	max-height: 2000px;
+}
 
 // About
 

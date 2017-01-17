@@ -6,6 +6,7 @@
 @import "typography";
 @import "layout";
 @import "header";
+@import "pageheader";
 @import "hero";
 @import "form";
 @import "ui/buttons";
@@ -16,7 +17,7 @@
 
 .social {
 
-    a {	
+    a {
     	color: transparent;
     	}
 
@@ -39,46 +40,7 @@
 	text-align: center;
 	}
 
-
-// PAGE HEADER 
-	
-
-.pageheader {
-	position: relative;
-	width: auto;
-	height: auto;
-	//background-image: url('../images/maze.png');
-	background-repeat: repeat;
-	padding: 25px 0 10px 20%;
-
-
-	h1 {
-	font-size: 2.0rem;
-	padding: 0;
-
-		@media screen and (max-width: $mobileBreakpoint) {
-			font-size: 1.8rem;
-			}
-	}
-
-	p, a {
-	font-size: 1.1rem;	
-		@media screen and (max-width: $mobileBreakpoint) {
-			font-size: 0.9rem;
-		}
-	}
-
-	@media screen and (max-width: $tabletBreakpoint) {
-		padding: 25px 0 10px 40px;
-		}
-
-	@media screen and (max-width: $mobileBreakpoint) {
-		padding: 25px 0 10px 30px;
-		}
-}
-		
-
-// For Style Guide 
+// For Style Guide
 
 .colourBox {
 	display: block;
