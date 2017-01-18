@@ -4,7 +4,7 @@ FOOTER
 
 footer {
 	width: 100%;
-	height: 300px;
+	height: auto;
 	position: relative;
 	bottom: 0;
 	left: 0;
@@ -13,15 +13,24 @@ footer {
 	margin-top: 50px;
 	background-color: $mainBg;
 	border-top: 4px solid #eeeeee;
-		
+
 	p {
 		font-size: 1.0rem;
 		line-height: 1.3rem;
 		color: #ffffff;
 		text-align: left;
 		}
+
+	a {
+		color: #fff;
+		}
+
+	li {
+		list-style-type: none;
+		margin-left: 0;
+		}
 	}
-	
+
 footer .flex-item {
 	padding: 40px 50px;
 	max-width: 200px;
@@ -32,7 +41,7 @@ footer .flex-item {
 	@media screen and (max-width: 760px) {
 	padding: 20px;
 	}
-	
+
 	}
 
 
