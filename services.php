@@ -18,29 +18,81 @@ include('includes/header.php');
 
 </div>
 
-<main class="flex-container">
+<main role="main">
 
-	<div class="flex-item" >
-		<h1>Lorem ipsum dolor sit</h1>
+	<div class="flex-container">
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.
-		</p>
+		<div class="flex-item">
+
+			<svg class="services-icon center">
+					<use xlink:href="img/sprite.svg#cocktail-menu-creation"></use>
+			</svg>
+
+			<h2 class="center">Cocktail menu creation</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			</p>
+
+		</div>
+
+		<div class="flex-item">
+
+			<svg class="services-icon center">
+					<use xlink:href="img/sprite.svg#training"></use>
+			</svg>
+
+			<h2 class="center">Staff training and selection</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			</p>
+
+		</div>
 
 	</div>
 
-	<div class="flex-item" >
-		<h1>Lorem ipsum dolor sit</h1>
+	<div class="flex-container">
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.
-		</p>
+		<div class="flex-item">
+
+			<svg class="services-icon center">
+					<use xlink:href="img/sprite.svg#menu"></use>
+			</svg>
+
+			<h2 class="center">Menu graphic design</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			</p>
+
+		</div>
+
+		<div class="flex-item">
+
+			<svg class="services-icon center">
+					<use xlink:href="img/sprite.svg#camera"></use>
+			</svg>
+
+			<h2 class="center">Photography</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			</p>
+
+		</div>
 
 	</div>
+
+
 
 </main>
 

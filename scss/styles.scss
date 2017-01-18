@@ -14,7 +14,7 @@
 @import "ui/input-boxes";
 @import "footer";
 
-// SOCIAL ICONS
+// Social Icons
 
 .social {
 
@@ -37,9 +37,21 @@
 
 .social-hero {
 	display: block;
-    width: 270px;
+  width: 270px;
 	text-align: center;
 	}
+
+// Services Icons
+
+svg.services-icon {
+  display: block;
+  margin: 0 auto;
+  width: 5em;
+  height: 5em;
+  fill: $mainBg;
+  color: $mainBg;
+  }
+
 
 // For Style Guide
 
