@@ -21,7 +21,7 @@ include('includes/header.php');
 
 </div>
 
-<main>
+<main role="main">
 
 	  <p>Your privacy is important to us.</p>
 

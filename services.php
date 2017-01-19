@@ -1,8 +1,8 @@
 <?php
 
 $pageTitle = 'Services | The Top Shelf Specialists';
-$pageDescription = 'Our services span a range of areas, including...';
-$pageKeywords = 'Services, bar, bar consultancy, cocktails, staff training, spirit selection, the top shelf specialists';
+$pageDescription = 'Our services aim to improve your bar experience, including staff training, spirit selection, photography, drinks menu creation and cocktail menu creation.';
+$pageKeywords = 'Services, bar, bar consultancy, cocktails, Manchester cocktail menu creation, staff training, spirit selection, the top shelf specialists';
 $pageUrl = 'http://thetopshelfspecialists.co.uk/services';
 
 $cssPath = 'css/styles.css';

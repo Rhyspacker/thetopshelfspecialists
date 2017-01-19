@@ -66,7 +66,7 @@ include('includes/header.php');
 </div>
 
 
-<main class="flex-container">
+<main class="flex-container" role="main">
 
 	<div class="flex-item" >
 

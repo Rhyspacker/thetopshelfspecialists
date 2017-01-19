@@ -19,7 +19,7 @@ include('includes/header.php');
 </div>
 
 
-<main>
+<main role="main">
 
 	<article class="full-row">
 

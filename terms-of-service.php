@@ -21,7 +21,7 @@ include('includes/header.php');
 
 </div>
 
-<main>
+<main role="main">
 
 			<h2>1. Terms</h2>
 

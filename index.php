@@ -4,8 +4,8 @@
 <?php
 // Define variables for SEO
 $pageTitle = 'Home | The Top Shelf Specialists';
-$pageDescription = 'We are an award winning bar consultancy agency based in Manchester...';
-$pageKeywords = 'Manchester, Bar, Bar consultancy, cocktails, top shelf, the top shelf specialists';
+$pageDescription = 'We are an award winning bar consultancy agency based in Manchester - Staff training, spirit selection, cocktail menus and much more.';
+$pageKeywords = 'Manchester, Bar, Bar consultancy, Manchester bar staff training, cocktails, top shelf, the top shelf specialists';
 $pageUrl = 'http://thetopshelfspecialists.co.uk';
 
 $cssPath = 'css/styles.css';
@@ -27,7 +27,7 @@ include('includes/header.php');
 </div>
 
 
-<main>
+<main role="main">
 
   <h1 class="center">Partnerships</h1>
 
@@ -65,7 +65,7 @@ include('includes/header.php');
   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
   		consequat.
       <br>
-      <a class="center" style="display: inline-block" href="about.php" title="">
+      <a class="center spacing" style="display: inline-block" href="about.php" title="">
       View about
       </a>
   		</p>
