@@ -1,8 +1,9 @@
+
 p {
 	display: block;
 	font-size: 1.3rem;
 	font-family: $pFont;
-	color: #323232;
+	color: $mainBg;
 	padding: 10px 0;
 	margin: 20px 0;
 
@@ -27,7 +28,7 @@ h1 {
 		font-size: 1.7rem;
 		}
 	}
-	
+
 h2 {
 	font-size: 1.6rem;
 	padding: 25px 0;
@@ -36,7 +37,7 @@ h2 {
 		font-size: 1.4rem;
 		}
 	}
-	
+
 h3 {
 	font-size: 1.4rem;
 	padding: 25px 0;
@@ -64,12 +65,19 @@ label {
 	}
 
 a {
-   color: $linkColour;
+   color: $mainBg;
    transition: all ease-in-out .4s;
-
+	 font-size: 1.3rem;
+	 border-bottom: 3px solid $linkColour;
+	 text-decoration: none;
    &:hover {
    color: $linkColourHover;
-	}
+	 border-bottom: 3px solid $linkColourHover;
+	 }
+
+	 @media screen and (max-width: $mobileBreakpoint) {
+	 font-size: 1.0rem;
+	 }
 }
 
 li {
@@ -88,5 +96,3 @@ li {
 		font-size: 0.9rem;
 		}
 	}
-
-

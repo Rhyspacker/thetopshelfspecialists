@@ -10,7 +10,7 @@ header {
 	@media screen and (max-width: $tabletBreakpoint) {
 		height: 100px;
 		}
-	}	
+	}
 
 
 .logo {
@@ -27,11 +27,11 @@ header {
 		}
 	}
 
-	
-.nav { 
+
+.nav {
 	background-color: $mainBg;
-	color: #fff; 
-	margin: 8px 0 0 0;
+	color: #fff;
+	margin: 20px 0 0 0;
 	text-align: center;
 
 	ul {
@@ -40,7 +40,7 @@ header {
 		}
 
 	li {
-		display: inline; 
+		display: inline;
 		list-style: none;
         margin-left: 0;
 
@@ -52,7 +52,7 @@ header {
 		}
 
 	a {
-		text-decoration: none; 
+		border-bottom: 0;
 		font-family: $headerFont;
 		font-size: 1.3rem;
 		font-weight: 200;
@@ -60,7 +60,7 @@ header {
 		padding: 0 20px;
 
 		transition: all ease-in-out .4s;
-		
+
 		&:hover {
 		color: $hoverColour;
 		}
@@ -80,12 +80,14 @@ header {
 		}
 
 	}
-	
 
+#burger-container{
+	  display: none;
+}
 
 // @Media requests for nav-btn
 
-	
+
 @media screen and (max-width: $tabletBreakpoint) {
 
 
@@ -93,7 +95,7 @@ header {
 	position: absolute;
 	left: 15px;
 	width: 50px;
-	display: block; 
+	display: block;
 	background-color: $mainBg;
 	color: #ffffff;
 	font-family: $headerFont;
@@ -102,14 +104,15 @@ header {
 	text-align:center;
 	cursor: pointer;
 	margin-top: 30px;
-	}	
-	
+	}
+
 .nav-btn:before {
 	position: fixed;
 	left: 10px;
-		}				
-	
+		}
+
 #burger-container{
+	  display: block;
     position: relative;
     width: 60px;
     height: 60px;
