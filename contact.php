@@ -69,13 +69,24 @@ include('includes/header.php');
 <main class="flex-container">
 
 	<div class="flex-item" >
-		<h1>Lorem ipsum dolor sit</h1>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.
-		</p>
+		<div class="contact-element">
+
+			<svg class="contact-icon">
+					<use xlink:href="img/sprite.svg#phone"></use>
+			</svg>
+			<a href="tel:07795551197" class="contact-info" title="">07795551197</a>
+
+	  </div>
+
+		<div class="contact-element">
+
+			<svg class="contact-icon">
+					<use xlink:href="img/sprite.svg#email"></use>
+			</svg>
+			<a href="mailto:mail@thetopshelfspecialists.co.uk" class="contact-info" title="">mail@thetopshelfspecialists.co.uk</a>
+
+		</div>
 
 	</div>
 

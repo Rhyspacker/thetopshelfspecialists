@@ -20,11 +20,12 @@
 
     a {
     	color: transparent;
+      border-bottom: 0;
     	}
 
     svg {
     	width: 3em;
-		height: 3em;
+		  height: 3em;
     	fill: #ffffff;
     	transition: all ease-in-out .4s;
     	}
@@ -52,7 +53,32 @@ svg.services-icon {
   color: $mainBg;
   }
 
+// Contact Icons
 
+svg.contact-icon {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  color: $mainBg;
+
+  @media screen and (max-width: $tabletBreakpoint) {
+    display: block;
+    width: 2.4em;
+    height: 2.4em;
+  }
+}
+
+a.contact-info {
+  position: relative;
+  top: -17px;
+  margin-left: 15px;
+
+  @media screen and (max-width: $tabletBreakpoint) {
+    top: 8px;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+}
 // For Style Guide
 
 .colourBox {
