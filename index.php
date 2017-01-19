@@ -51,33 +51,27 @@ include('includes/header.php');
 
   </div>
 
-  <button class="center" style="display: block;" id="partners-open" data-text-swap="Show Less">
-  Show More
+  <button class="center" style="display: block;" id="partners-open" data-text-swap="Show less">
+  Show more
   </button>
 
   <div class="flex-container">
 
   	<div class="flex-item" >
-  		<h1>Lorem ipsum dolor sit</h1>
+  		<h1 class="center">What we're about</h1>
 
-  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		<p class="center paragraph-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
   		consequat.
+      <br>
+      <a class="center" style="display: inline-block" href="about.php" title="">
+      View about
+      </a>
   		</p>
 
   	</div>
 
-  	<div class="flex-item" >
-  		<h1>Lorem ipsum dolor sit</h1>
-
-  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  		consequat.
-  		</p>
-
-  	</div>
 
   </div>
 
