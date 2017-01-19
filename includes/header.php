@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title><?php echo $pageTitle; ?></title>
     <meta charset="utf-8">
@@ -16,15 +16,20 @@
 
     <link href="<?php echo $cssPath; ?>" type="text/css" rel="stylesheet"/>
 
-
   </head>
 
 
 <body>
 
-<header>
+<header role="banner">
 
-  <a href="" title=""><img class="logo" /></a>
+  <a href="index.php" title="Go to the home page">
+
+    <svg class="logo center">
+        <use xlink:href="img/sprite.svg#logo"></use>
+    </svg>
+
+  </a>
 
   <nav role="navigation">
       <div class="nav-btn">
@@ -39,10 +44,10 @@
       </div>
 
       <ul class="nav">
-        <li><a href="index.php" title="">HOME</a></li>
-        <li><a href="about.php" title="">ABOUT</a></li>
-        <li><a href="services.php" title="">SERVICES</a></li>
-        <li><a href="contact.php" title="">CONTACT</a></li>
+        <li><a href="index.php" title="Go to the home page">Home</a></li>
+        <li><a href="about.php" title="Go to the about page">About</a></li>
+        <li><a href="services.php" title="Go to the services page">Services</a></li>
+        <li><a href="contact.php" title="Go to the contact page">Contact</a></li>
       </ul>
 
     </nav>
