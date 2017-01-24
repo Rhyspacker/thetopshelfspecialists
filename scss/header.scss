@@ -4,12 +4,21 @@ header {
   background: $mainBg;
 	width: 100%;
 	height: 160px;
-
 	z-index: 996;
 
 	@media screen and (max-width: $tabletBreakpoint) {
 		height: 100px;
 		}
+	}
+
+.logo-container {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+
+a.logo-container {
+		border-bottom: none;
 	}
 
 .logo {

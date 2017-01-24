@@ -23,13 +23,15 @@
 
 <header role="banner">
 
-  <a href="index.php" title="Go to the home page">
+  <div class="logo-container">
+    <a href="index.php" title="Go to the home page">
 
-    <svg class="logo center">
-        <use xlink:href="img/sprite.svg#logo"></use>
-    </svg>
+      <svg class="logo center">
+          <use xlink:href="img/sprite.svg#logo"></use>
+      </svg>
 
-  </a>
+    </a>
+  </div>
 
   <nav role="navigation">
       <div class="nav-btn">
