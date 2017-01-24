@@ -18,11 +18,33 @@ include('includes/header.php');
 
   <div id="particles-js"></div>
 
-  	<h1 class="typewrite" data-period="3000" data-type='[ "Award winning cocktails by design.", "Manchester based." ]'>
+  	<h1 class="typewrite" data-period="5000" data-type='[ "Award winning cocktails by design.", "Bar consultancy that helps your business grow.", "Manchester based." ]'>
 
-	    <span class="wrap"></span>
+	   <span class="wrap"></span>
 
-	</h1>
+	  </h1>
+
+    <section class="center social social-hero">
+
+  		<h2>Connect with us</h2>
+
+  			<a href="#" title="">
+
+  				<svg class="icon">
+  	 				<use xlink:href="img/sprite.svg#facebook"></use>
+  				</svg>
+
+  			</a>
+
+  			<a href="#" title="">
+
+  				<svg class="icon">
+  				  	<use xlink:href="img/sprite.svg#twitter"></use>
+  				</svg>
+
+  			</a>
+
+  	</section>
 
 </div>
 
@@ -34,9 +56,9 @@ include('includes/header.php');
   <div class="partners-container" id="partners-container">
 
     <div class="flex-container">
+      <img class="flex-item partner-item" src="img/partners/jameson.png" alt="">
       <img class="flex-item partner-item" src="img/partners/burleighs-gin.png" alt="">
       <img class="flex-item partner-item" src="img/partners/jimbeam.png" alt="">
-      <img class="flex-item partner-item" src="img/partners/jameson.png" alt="">
     </div>
     <div class="flex-container">
       <img class="flex-item partner-item" src="img/partners/junkyard.png" alt="">
