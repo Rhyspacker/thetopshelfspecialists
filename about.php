@@ -50,7 +50,7 @@ include('includes/header.php');
 
 		<div class="flex-item" >
 
-			<img src="img/team-member.jpg" alt="" class="team-member-img" />
+			<img src="img/joe.jpg" alt="" class="team-member-img" />
 
 			<h2 class="team-member-name">Joseph Moreton</h2>
 
@@ -64,7 +64,7 @@ include('includes/header.php');
 
 		<div class="flex-item" >
 
-			<img src="img/team-member.jpg" alt="" class="team-member-img" />
+			<img src="img/callum.jpg" alt="" class="team-member-img" />
 
 			<h2 class="team-member-name">Callum McKay</h2>
 
