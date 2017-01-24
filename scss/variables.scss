@@ -2,16 +2,16 @@
 FONTS
 ----*/
 
-@import url('https://fonts.googleapis.com/css?family=Nunito|Arvo');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Karla');
 
 
 // Colours
 
 $mainBg: #000000;
 $secondBg: #ff2943;
-$hoverColour: #0C3AF2;
-$linkColour: #0C3AF2;
-$linkColourHover: #3655d2;
+$hoverColour: #20A2DC;
+$linkColour: #20A2DC;
+$linkColourHover: #208CB2;
 
 
 // Breakpoints
@@ -21,7 +21,7 @@ $mobileBreakpoint: 500px;
 
 // Typography
 
-$headerFont: 'Arvo', sans-serif;
+$headerFont: 'Karla', sans-serif;
 $pFont: 'Nunito', sans-serif;
 
 $textShadow: 2px 2px 0 #ffd217, 5px 5px 0 #5ac7ff, 8px 8px 0 #ffd217, 10px 10px 0 #5ac7ff;
